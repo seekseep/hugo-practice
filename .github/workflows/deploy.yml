@@ -37,6 +37,15 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Install Pagefind
+        run: |
+          curl -sSL https://pagefind.app/install.sh | bash
+          echo "$HOME/.pagefind" >> $GITHUB_PATH
+
+      - name: Build Pagefind index
+        run: |
+          pagefind --site public
+
       - name: Upload to S3
         run: |
           aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete
