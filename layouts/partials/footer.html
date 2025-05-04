@@ -1,0 +1,39 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__section">
+      <h1 class="footer__sectionTitle footer__sectionTitle--site">
+        {{ .Site.Title }}
+      </h1>
+      <ul class="footer__navList">
+        {{ $staticPages := where .Site.RegularPages "Section" "static-pages" }}
+        {{ $sortedStaticPages := sort $staticPages ".Params.weight" }}
+        {{ range $sortedStaticPages }}
+          <li class="footer__navItem">
+            <a class="footer__navItemLink" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__sectionTitle">
+        カテゴリ
+      </h2>
+      <ul class="footer__navList">
+        {{ $termPages := where .Site.Pages "Kind" "term"}}
+        {{ $categoryTermPages := where $termPages "Type" "categories"}}
+        {{ $sortedCategoryTermPages := sort $categoryTermPages "Title" "asc" }}
+        {{ range $sortedCategoryTermPages }}
+          {{ if or (not (isset .Params "categories")) (eq (len .Params.categories) 0) }}
+          <li class="footer__navItem">
+            <a class="footer__navItemLink" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</footer>

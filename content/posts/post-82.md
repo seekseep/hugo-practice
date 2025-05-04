@@ -1,16 +1,17 @@
 ---
-title: 記事82
-description: コース28 3 の説明
+title: Title with a very long name
+description: HTML/CSSデザイン 5 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E8%A8%98%E4%BA%8B82
-categories: ['category-14', 'category-15', 'category-17']
-courses: ['course-28']
-date: 2023-11-01T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=Title+with+a+very+long+name
+categories: ['category-14', 'category-15']
+courses: ['course-24']
+weight: 6
+date: 2023-10-30T00:00:00.000Z
 ---
 
-# 記事82 3
+# Title with a very long name 5
 
-記事82 3の内容が入ります。
+Title with a very long name 5の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B82+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+5)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B82+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+5)

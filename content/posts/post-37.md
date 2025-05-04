@@ -1,16 +1,17 @@
 ---
-title: 記事37
-description: コース13 3 の説明
+title: これはある程度長い記事のタイトル
+description: とても長いコースの名称は略称と付けられることを想定しているだろうと思う 3 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E8%A8%98%E4%BA%8B37
-categories: ['category-7', 'category-8']
-courses: ['course-13']
-date: 2023-10-17T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-4', 'category-5']
+courses: ['course-9']
+weight: 4
+date: 2023-10-13T00:00:00.000Z
 ---
 
-# 記事37 3
+# これはある程度長い記事のタイトル 3
 
-記事37 3の内容が入ります。
+これはある程度長い記事のタイトル 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B37+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B37+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)

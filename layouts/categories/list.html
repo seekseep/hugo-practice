@@ -1,14 +1,18 @@
 {{ define "main" }}
-  カテゴリのテンプレート
-  <h1>{{ .Title }}</h1>
+  {{ partial "breadcrumbs-as-category.html" . }}
 
-  <h2>子のカテゴリ</h2>
-  <ul class="pageList">
-    {{ $termPages := where .Pages "Kind" "term"}}
-    {{ $categoryTermPages := where $termPages "Type" "categories"}}
-    {{ $current := .Name }}
+  <section class="section">
+    <div class="section__content">
+      {{ .Content}}
+    </div>
+  </section>
 
-    {{ range $categoryTermPages }}
+  {{ $termPages := where .Pages "Kind" "term" }}
+  {{ $categoryTermPages := where $termPages "Type" "categories" }}
+  {{ $current := .Name }}
+
+  {{ $childCategories := slice }}
+  {{ range $categoryTermPages }}
     {{ $cats := .Params.categories }}
     {{ $found := false }}
     {{ $idx := -1 }}
@@ -21,39 +25,61 @@
     {{ end }}
 
     {{ $isDirectChild := and $found (ge (add $idx 1) (len $cats)) }}
-
     {{ if $isDirectChild }}
-      <li class="pageList__item">
-        {{ partial "page-card.html" . }}
-      </li>
+      {{ $childCategories = $childCategories | append . }}
     {{ end }}
-    {{ end }}
-  </ul>
+  {{ end }}
 
+  {{ if gt (len $childCategories) 0 }}
+    <section class="section">
+      <div class="section__header">
+        <div class="section__title">カテゴリ</div>
+      </div>
+      <div class="section__content">
+        <ul class="pageList">
+          {{ range $childCategories }}
+            <li class="pageList__item">
+              {{ partial "page-card.html" . }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+  {{ end }}
 
-  <h2>コースの一覧</h2>
-  <ul class="pageList">
-    {{ $termPages := where .Pages "Kind" "term"}}
-    {{ $courseTermPages := where $termPages "Type" "courses"}}
+  <section class="section">
+    <div class="section__header">
+      <div class="section__title">コース</div>
+    </div>
+    <div class="section__content">
+      <ul class="pageList">
+        {{ $termPages := where .Pages "Kind" "term"}}
+        {{ $courseTermPages := where $termPages "Type" "courses"}}
 
-    {{ range $courseTermPages }}
-      <li class="pageList__item">
-        {{ partial "page-card.html" . }}
-      </li>
-    {{ end }}
-  </ul>
+        {{ range $courseTermPages }}
+          <li class="pageList__item">
+            {{ partial "page-card.html" . }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
 
-  <h2>最近更新された記事</h2>
-  <div class="topSection__content">
-    <ul class="pageList">
-      {{ $postPages := where .RegularPages "Section" "posts" }}
-      {{ $sortedPostPages := sort $postPages "Lastmod" "desc" }}
-      {{ range first 8 $sortedPostPages }}
-      <li class="pageList__item">
-        {{ partial "page-card.html" . }}
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+  <section class="section">
+    <div class="section__header">
+      <div class="section__title">記事</div>
+    </div>
+    <div class="section__content">
+      <ul class="pageList">
+        {{ $postPages := where .RegularPages "Section" "posts" }}
+        {{ $sortedPostPages := sort $postPages "Lastmod" "desc" }}
+        {{ range first 8 $sortedPostPages }}
+        <li class="pageList__item">
+          {{ partial "post-page-card.html" . }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
 
 {{ end }}

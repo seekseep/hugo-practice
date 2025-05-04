@@ -1,37 +1,17 @@
 ---
-title: コース25
-description: コース25の説明
+title: React.js実践
+description: React.js実践の説明
 date: 2023-10-26T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B925
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=React.js%E5%AE%9F%E8%B7%B5
 categories: ['category-14', 'category-15']
 courses: []
 ---
 
-# コース25 25
+これは React.js実践 25 コースの記事の一覧です。
 
-コース25 25の内容が入ります。
+  React.js実践 25 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B925+25)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B925+25)
+  - セクション1
+  - セクション2
+  - セクション3

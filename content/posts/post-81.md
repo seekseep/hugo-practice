@@ -1,16 +1,17 @@
 ---
-title: 記事81
-description: コース28 2 の説明
+title: 長いタイトルは略称と付けられることを想定しているだろうと思う
+description: HTML/CSSデザイン 4 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E8%A8%98%E4%BA%8B81
-categories: ['category-14', 'category-15', 'category-17']
-courses: ['course-28']
-date: 2023-10-31T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-14', 'category-15']
+courses: ['course-24']
+weight: 5
+date: 2023-10-29T00:00:00.000Z
 ---
 
-# 記事81 2
+# 長いタイトルは略称と付けられることを想定しているだろうと思う 4
 
-記事81 2の内容が入ります。
+長いタイトルは略称と付けられることを想定しているだろうと思う 4の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B81+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+4)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B81+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+4)

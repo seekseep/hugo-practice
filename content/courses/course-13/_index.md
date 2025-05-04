@@ -1,37 +1,17 @@
 ---
-title: コース13
-description: コース13の説明
+title: HTML/CSSデザイン
+description: HTML/CSSデザインの説明
 date: 2023-10-14T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%82%B3%E3%83%BC%E3%82%B913
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=HTML%2FCSS%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3
 categories: ['category-7', 'category-8']
 courses: []
 ---
 
-# コース13 13
+これは HTML/CSSデザイン 13 コースの記事の一覧です。
 
-コース13 13の内容が入ります。
+  HTML/CSSデザイン 13 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B913+13)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B913+13)
+  - セクション1
+  - セクション2
+  - セクション3

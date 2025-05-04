@@ -1,16 +1,17 @@
 ---
-title: 記事43
-description: コース15 2 の説明
+title: サンプル記事
+description: Python基礎 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E8%A8%98%E4%BA%8B43
-categories: ['category-7', 'category-8', 'category-9']
-courses: ['course-15']
-date: 2023-10-18T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-7', 'category-8']
+courses: ['course-12']
+weight: 2
+date: 2023-10-14T00:00:00.000Z
 ---
 
-# 記事43 2
+# サンプル記事 1
 
-記事43 2の内容が入ります。
+サンプル記事 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B43+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B43+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)

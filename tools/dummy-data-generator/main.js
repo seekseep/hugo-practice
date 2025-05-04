@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { add } = require('date-fns');
 
-function createDummyContent (title) {
+function createPostContent (title) {
   const dummyImageUrl = createDummyImage(320, 180, title, 0);
   const dummyImageUrl2 = createDummyImage(640, 360, title, 1);
   return `
@@ -35,6 +35,30 @@ console.log('Hello, world!');
 ![画像](${dummyImageUrl2})
 
   `.trim()
+}
+
+function createCategoryContent (title) {
+  return `
+  これは ${title} カテゴリのダミーコンテンツです。
+
+  ${title} カテゴリでは次のような内容について学びます。
+
+  - セクション1
+  - セクション2
+  - セクション3
+  `
+}
+
+function createCourseContent (title) {
+  return `
+  これは ${title} コースの記事の一覧です。
+
+  ${title} コースでは次のような内容について学びます。
+
+  - セクション1
+  - セクション2
+  - セクション3
+`.trim()
 }
 
 function createPageCreator (contentDir) {
@@ -87,12 +111,46 @@ const getNextCategory = (function () {
 
 const getNextCourse = (function () {
   let count = 0;
+
+  const courseTitles = [
+    'JavaScript入門',
+    'Python基礎',
+    'HTML/CSSデザイン',
+    'React.js実践',
+    'Node.jsサーバー構築',
+    'データベース基礎',
+    '機械学習入門',
+    'AIプログラミング',
+    'モバイルアプリ開発',
+    'とても長いコースの名称は略称と付けられることを想定しているだろうと思う',
+    'フロントエンド開発',
+  ]
+
   return function () {
     const name = `course-${count}`;
-    const title = `コース${count}`;
+    const title = courseTitles[count % courseTitles.length];
     const description = `コース${count}の説明`;
     count++;
     return { name, title, description };
+  }
+})();
+
+const getNextDummyTitle = (function () {
+  let count = 0;
+
+  const titles = [
+    "基本的な記事",
+    "サンプル記事",
+    "これはある程度長い記事のタイトル",
+    "ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う",
+    "長いタイトルは略称と付けられることを想定しているだろうと思う",
+    "Title with a very long name",
+    "12345 と数字の入ったタイトル",
+  ]
+
+  return function () {
+    const baseTitle = titles[count++ % titles.length];
+    return baseTitle;
   }
 })();
 
@@ -100,7 +158,8 @@ const getNextPost = (function () {
   let count = 0;
   return function () {
     const name = `post-${count}`;
-    const title = `記事${count}`;
+    const title = getNextDummyTitle(count);
+    console.log({ title })
     count++;
     return { name, title };
   }
@@ -120,8 +179,9 @@ const createDummyImage = (function () {
 
   return function createDummyImage (width, height, text, palleteIndex) {
     const [bg, fg] = palettes[palleteIndex % palettes.length];
+
     const url = new URL(`https://dummyimage.com/${width}x${height}/${fg.slice(1)}/${bg.slice(1)}`);
-    url.searchParams.set('text', text);
+    url.searchParams.set('text', text.slice(0, 128));
     return url.toString();
   }
 })()
@@ -154,7 +214,7 @@ function main (args) {
     description: 'Welcome to the home page',
     date: new Date().toISOString(),
     draft: false,
-  }, createDummyContent("ホーム"))
+  }, createPostContent("ホーム"))
 
   createPage('static-pages/about', {
     title: '概要',
@@ -163,7 +223,7 @@ function main (args) {
     draft: false,
     weight: 1,
     url: '/about'
-  }, createDummyContent("概要"))
+  }, createPostContent("概要"))
 
   createPage('static-pages/contact', {
     title: '問い合わせ',
@@ -172,7 +232,7 @@ function main (args) {
     draft: false,
     weight: 2,
     url: '/contact'
-  }, createDummyContent("問い合わせ"))
+  }, createPostContent("問い合わせ"))
 
   createPage('static-pages/policy', {
     title: 'プライバシーポリシー',
@@ -181,7 +241,7 @@ function main (args) {
     draft: false,
     weight: 3,
     url: '/policy',
-  }, createDummyContent("プライバシーポリシー"))
+  }, createPostContent("プライバシーポリシー"))
 
   const courses = []
   const categories = []
@@ -237,7 +297,7 @@ function main (args) {
       thumbnail: category.thumbnail,
       date: new Date().toISOString(),
       draft: false,
-    }, createDummyContent(category.title));
+    }, createCategoryContent(category.title));
   });
 
   courses.forEach((course, i) => {
@@ -249,7 +309,7 @@ function main (args) {
       thumbnail: course.thumbnail,
       categories: course.categories,
       courses: []
-    }, createDummyContent(`${course.title} ${i}`));
+    }, createCourseContent(`${course.title} ${i}`));
     for (let i = 1; i <= course.count; i++) {
       const post = getNextPost();
       createPage(`posts/${post.name}`, {
@@ -259,8 +319,9 @@ function main (args) {
         thumbnail: getNextThumbnail(post.title),
         categories: course.categories,
         courses: [course.name],
+        weight: i + 1,
         date: add(course.baseDate, { days: i }).toISOString(),
-      }, createDummyContent(`${post.title} ${i}`));
+      }, createPostContent(`${post.title} ${i}`));
     }
   })
 }

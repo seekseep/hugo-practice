@@ -1,16 +1,17 @@
 ---
-title: 記事75
-description: コース26 4 の説明
+title: Title with a very long name
+description: Python基礎 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E8%A8%98%E4%BA%8B75
-categories: ['category-14', 'category-15', 'category-16']
-courses: ['course-26']
-date: 2023-10-31T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=Title+with+a+very+long+name
+categories: ['category-7', 'category-11', 'category-13']
+courses: ['course-23']
+weight: 3
+date: 2023-10-26T00:00:00.000Z
 ---
 
-# 記事75 4
+# Title with a very long name 2
 
-記事75 4の内容が入ります。
+Title with a very long name 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B75+4)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B75+4)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+2)

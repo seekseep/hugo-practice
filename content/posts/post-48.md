@@ -1,16 +1,17 @@
 ---
-title: 記事48
-description: コース17 2 の説明
+title: 12345 と数字の入ったタイトル
+description: React.js実践 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B48
-categories: ['category-7', 'category-8', 'category-10']
-courses: ['course-17']
-date: 2023-10-20T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-7', 'category-8', 'category-9']
+courses: ['course-14']
+weight: 2
+date: 2023-10-16T00:00:00.000Z
 ---
 
-# 記事48 2
+# 12345 と数字の入ったタイトル 1
 
-記事48 2の内容が入ります。
+12345 と数字の入ったタイトル 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B48+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B48+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+1)

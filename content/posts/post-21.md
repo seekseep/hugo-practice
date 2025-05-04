@@ -1,16 +1,17 @@
 ---
-title: 記事21
-description: コース7 3 の説明
+title: 基本的な記事
+description: 機械学習入門 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E8%A8%98%E4%BA%8B21
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
 categories: ['category-0', 'category-4']
-courses: ['course-7']
-date: 2023-10-11T00:00:00.000Z
+courses: ['course-6']
+weight: 2
+date: 2023-10-08T00:00:00.000Z
 ---
 
-# 記事21 3
+# 基本的な記事 1
 
-記事21 3の内容が入ります。
+基本的な記事 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B21+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B21+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)

@@ -1,16 +1,17 @@
 ---
-title: 記事19
-description: コース7 1 の説明
+title: Title with a very long name
+description: データベース基礎 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E8%A8%98%E4%BA%8B19
-categories: ['category-0', 'category-4']
-courses: ['course-7']
-date: 2023-10-09T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5']
+weight: 3
+date: 2023-10-08T00:00:00.000Z
 ---
 
-# 記事19 1
+# Title with a very long name 2
 
-記事19 1の内容が入ります。
+Title with a very long name 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B19+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B19+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+2)

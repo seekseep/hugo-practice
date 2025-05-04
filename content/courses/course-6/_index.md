@@ -1,37 +1,17 @@
 ---
-title: コース6
-description: コース6の説明
+title: 機械学習入門
+description: 機械学習入門の説明
 date: 2023-10-07T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E3%82%B3%E3%83%BC%E3%82%B96
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E5%85%A5%E9%96%80
 categories: ['category-0', 'category-4']
 courses: []
 ---
 
-# コース6 6
+これは 機械学習入門 6 コースの記事の一覧です。
 
-コース6 6の内容が入ります。
+  機械学習入門 6 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B96+6)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B96+6)
+  - セクション1
+  - セクション2
+  - セクション3

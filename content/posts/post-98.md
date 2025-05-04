@@ -1,16 +1,17 @@
 ---
-title: 記事98
-description: コース34 3 の説明
+title: 基本的な記事
+description: 機械学習入門 4 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E8%A8%98%E4%BA%8B98
-categories: ['category-14', 'category-18', 'category-20']
-courses: ['course-34']
-date: 2023-11-07T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-14', 'category-15', 'category-17']
+courses: ['course-28']
+weight: 5
+date: 2023-11-02T00:00:00.000Z
 ---
 
-# 記事98 3
+# 基本的な記事 4
 
-記事98 3の内容が入ります。
+基本的な記事 4の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B98+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+4)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B98+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+4)

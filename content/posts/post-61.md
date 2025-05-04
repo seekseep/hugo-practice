@@ -1,16 +1,17 @@
 ---
-title: 記事61
-description: コース22 1 の説明
+title: Title with a very long name
+description: AIプログラミング 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E8%A8%98%E4%BA%8B61
-categories: ['category-7', 'category-11', 'category-13']
-courses: ['course-22']
-date: 2023-10-24T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=Title+with+a+very+long+name
+categories: ['category-7', 'category-11']
+courses: ['course-18']
+weight: 3
+date: 2023-10-21T00:00:00.000Z
 ---
 
-# 記事61 1
+# Title with a very long name 2
 
-記事61 1の内容が入ります。
+Title with a very long name 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B61+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B61+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+2)

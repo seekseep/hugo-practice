@@ -1,16 +1,17 @@
 ---
-title: 記事45
-description: コース16 1 の説明
+title: ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う
+description: Python基礎 3 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E8%A8%98%E4%BA%8B45
-categories: ['category-7', 'category-8', 'category-10']
-courses: ['course-16']
-date: 2023-10-18T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-7', 'category-8']
+courses: ['course-12']
+weight: 4
+date: 2023-10-16T00:00:00.000Z
 ---
 
-# 記事45 1
+# ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う 3
 
-記事45 1の内容が入ります。
+ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B45+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B45+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+3)

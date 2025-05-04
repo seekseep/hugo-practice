@@ -13,11 +13,11 @@
   </div>
 </div>
 
-<section class="homeSection">
-  <header class="homeSection__header">
-    <h1 class="homeSection__title">最新の投稿</h1>
+<section class="section">
+  <header class="section__header">
+    <h1 class="section__title">最新の投稿</h1>
   </header>
-  <div class="homeSection__content">
+  <div class="section__content">
     <ul class="pageList">
       {{ $postPages := where .Site.RegularPages "Section" "posts" }}
       {{ $sortedPostPages := sort $postPages "Lastmod" "desc" }}
@@ -30,11 +30,11 @@
   </div>
 </section>
 
-<section class="homeSection">
-  <header class="homeSection__header">
-    <h1 class="homeSection__title">最近更新されたコース</h1>
+<section class="section">
+  <header class="section__header">
+    <h1 class="section__title">最近更新されたコース</h1>
   </header>
-  <div class="homeSection__content">
+  <div class="section__content">
     <ul class="pageList">
       {{ $termPages := where .Site.Pages "Kind" "term"}}
       {{ $courseTermPages := where $termPages "Type" "courses"}}
@@ -48,11 +48,11 @@
   </div>
 </section>
 
-<section class="homeSection">
-  <header class="homeSection__header">
-    <h1 class="homeSection__title">カテゴリ</h1>
+<section class="section">
+  <header class="section__header">
+    <h1 class="section__title">カテゴリ</h1>
   </header>
-  <div class="homeSection__content">
+  <div class="section__content">
     <ul class="pageList">
       {{ $termPages := where .Site.Pages "Kind" "term"}}
       {{ $categoryTermPages := where $termPages "Type" "categories"}}

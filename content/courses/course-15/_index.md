@@ -1,37 +1,17 @@
 ---
-title: コース15
-description: コース15の説明
+title: Node.jsサーバー構築
+description: Node.jsサーバー構築の説明
 date: 2023-10-16T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B915
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=Node.js%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89
 categories: ['category-7', 'category-8', 'category-9']
 courses: []
 ---
 
-# コース15 15
+これは Node.jsサーバー構築 15 コースの記事の一覧です。
 
-コース15 15の内容が入ります。
+  Node.jsサーバー構築 15 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B915+15)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B915+15)
+  - セクション1
+  - セクション2
+  - セクション3

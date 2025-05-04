@@ -1,7 +1,7 @@
 ---
 title: 問い合わせ
 description: Welcome to the home page
-date: 2025-05-04T04:08:58.025Z
+date: 2025-05-04T08:11:33.866Z
 draft: false
 weight: 2
 url: /contact

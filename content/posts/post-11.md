@@ -1,16 +1,17 @@
 ---
-title: 記事11
-description: コース4 1 の説明
+title: 長いタイトルは略称と付けられることを想定しているだろうと思う
+description: HTML/CSSデザイン 5 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E8%A8%98%E4%BA%8B11
-categories: ['category-0', 'category-1', 'category-3']
-courses: ['course-4']
-date: 2023-10-06T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-0', 'category-1', 'category-2']
+courses: ['course-2']
+weight: 6
+date: 2023-10-08T00:00:00.000Z
 ---
 
-# 記事11 1
+# 長いタイトルは略称と付けられることを想定しているだろうと思う 5
 
-記事11 1の内容が入ります。
+長いタイトルは略称と付けられることを想定しているだろうと思う 5の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B11+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+5)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B11+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86+5)

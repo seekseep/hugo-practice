@@ -1,37 +1,17 @@
 ---
-title: コース35
-description: コース35の説明
+title: HTML/CSSデザイン
+description: HTML/CSSデザインの説明
 date: 2023-11-05T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B935
+thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=HTML%2FCSS%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3
 categories: ['category-14', 'category-18', 'category-20']
 courses: []
 ---
 
-# コース35 35
+これは HTML/CSSデザイン 35 コースの記事の一覧です。
 
-コース35 35の内容が入ります。
+  HTML/CSSデザイン 35 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B935+35)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B935+35)
+  - セクション1
+  - セクション2
+  - セクション3

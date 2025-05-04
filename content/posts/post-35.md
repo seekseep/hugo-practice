@@ -1,16 +1,17 @@
 ---
-title: 記事35
-description: コース13 1 の説明
+title: 基本的な記事
+description: とても長いコースの名称は略称と付けられることを想定しているだろうと思う 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E8%A8%98%E4%BA%8B35
-categories: ['category-7', 'category-8']
-courses: ['course-13']
-date: 2023-10-15T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-4', 'category-5']
+courses: ['course-9']
+weight: 2
+date: 2023-10-11T00:00:00.000Z
 ---
 
-# 記事35 1
+# 基本的な記事 1
 
-記事35 1の内容が入ります。
+基本的な記事 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B35+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B35+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)

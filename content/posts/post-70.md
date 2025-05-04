@@ -1,16 +1,17 @@
 ---
-title: 記事70
-description: コース25 1 の説明
+title: 基本的な記事
+description: フロントエンド開発 3 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E8%A8%98%E4%BA%8B70
-categories: ['category-14', 'category-15']
-courses: ['course-25']
-date: 2023-10-27T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-7', 'category-11', 'category-12']
+courses: ['course-21']
+weight: 4
+date: 2023-10-25T00:00:00.000Z
 ---
 
-# 記事70 1
+# 基本的な記事 3
 
-記事70 1の内容が入ります。
+基本的な記事 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B70+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B70+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+3)

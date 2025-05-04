@@ -1,16 +1,17 @@
 ---
-title: 記事77
-description: コース27 1 の説明
+title: 基本的な記事
+description: Python基礎 4 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E8%A8%98%E4%BA%8B77
-categories: ['category-14', 'category-15', 'category-16']
-courses: ['course-27']
-date: 2023-10-29T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-7', 'category-11', 'category-13']
+courses: ['course-23']
+weight: 5
+date: 2023-10-28T00:00:00.000Z
 ---
 
-# 記事77 1
+# 基本的な記事 4
 
-記事77 1の内容が入ります。
+基本的な記事 4の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B77+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+4)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B77+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+4)

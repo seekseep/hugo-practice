@@ -1,16 +1,17 @@
 ---
-title: 記事1
-description: コース0 2 の説明
+title: サンプル記事
+description: JavaScript入門 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E8%A8%98%E4%BA%8B1
+thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
 categories: ['category-0', 'category-1']
 courses: ['course-0']
+weight: 3
 date: 2023-10-03T00:00:00.000Z
 ---
 
-# 記事1 2
+# サンプル記事 2
 
-記事1 2の内容が入ります。
+サンプル記事 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B1+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B1+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)

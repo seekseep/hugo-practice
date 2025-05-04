@@ -1,37 +1,17 @@
 ---
-title: コース16
-description: コース16の説明
+title: データベース基礎
+description: データベース基礎の説明
 date: 2023-10-17T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E3%82%B3%E3%83%BC%E3%82%B916
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E5%9F%BA%E7%A4%8E
 categories: ['category-7', 'category-8', 'category-10']
 courses: []
 ---
 
-# コース16 16
+これは データベース基礎 16 コースの記事の一覧です。
 
-コース16 16の内容が入ります。
+  データベース基礎 16 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B916+16)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B916+16)
+  - セクション1
+  - セクション2
+  - セクション3

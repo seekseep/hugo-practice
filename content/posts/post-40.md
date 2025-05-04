@@ -1,16 +1,17 @@
 ---
-title: 記事40
-description: コース14 2 の説明
+title: Title with a very long name
+description: JavaScript入門 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B40
-categories: ['category-7', 'category-8', 'category-9']
-courses: ['course-14']
-date: 2023-10-17T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-4', 'category-6']
+courses: ['course-11']
+weight: 2
+date: 2023-10-13T00:00:00.000Z
 ---
 
-# 記事40 2
+# Title with a very long name 1
 
-記事40 2の内容が入ります。
+Title with a very long name 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B40+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B40+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+1)

@@ -1,37 +1,17 @@
 ---
-title: コース14
-description: コース14の説明
+title: React.js実践
+description: React.js実践の説明
 date: 2023-10-15T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B914
+thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=React.js%E5%AE%9F%E8%B7%B5
 categories: ['category-7', 'category-8', 'category-9']
 courses: []
 ---
 
-# コース14 14
+これは React.js実践 14 コースの記事の一覧です。
 
-コース14 14の内容が入ります。
+  React.js実践 14 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B914+14)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B914+14)
+  - セクション1
+  - セクション2
+  - セクション3

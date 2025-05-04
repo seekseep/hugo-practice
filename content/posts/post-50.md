@@ -1,16 +1,17 @@
 ---
-title: 記事50
-description: コース18 1 の説明
+title: サンプル記事
+description: React.js実践 3 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E8%A8%98%E4%BA%8B50
-categories: ['category-7', 'category-11']
-courses: ['course-18']
-date: 2023-10-20T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-7', 'category-8', 'category-9']
+courses: ['course-14']
+weight: 4
+date: 2023-10-18T00:00:00.000Z
 ---
 
-# 記事50 1
+# サンプル記事 3
 
-記事50 1の内容が入ります。
+サンプル記事 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B50+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B50+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+3)

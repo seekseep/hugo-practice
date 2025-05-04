@@ -1,16 +1,17 @@
 ---
-title: 記事33
-description: コース11 4 の説明
+title: Title with a very long name
+description: モバイルアプリ開発 4 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E8%A8%98%E4%BA%8B33
-categories: ['category-0', 'category-4', 'category-6']
-courses: ['course-11']
-date: 2023-10-16T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-4', 'category-5']
+courses: ['course-8']
+weight: 5
+date: 2023-10-13T00:00:00.000Z
 ---
 
-# 記事33 4
+# Title with a very long name 4
 
-記事33 4の内容が入ります。
+Title with a very long name 4の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B33+4)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+4)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B33+4)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+4)

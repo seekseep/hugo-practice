@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs-as-category.html" . }}
+
+{{ $courseName := "" }}
+{{ $courseParmaLink :="" }}
+{{ $coursePages := slice }}
+
+{{ if gt (len .Params.courses) 0 }}
+  {{ $lastCourse := index .Params.courses (sub (len .Params.courses) 1) }}
+  {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
+    {{ $courseName = .Title }}
+    {{ $courseParmaLink = .RelPermalink }}
+    {{ $coursePages = .RegularPages }}
+  {{ end }}
+{{ end }}
+
+<article class="single">
+
+  <header class="single__header">
+    <div>
+      <a href="{{ $courseParmaLink }}" class="badge badge-lg">
+        {{ $courseName }}
+      </a>
+    </div>
+    <h1 class="single__title">{{ .Title }}</h1>
+    <p class="single__date">{{ .Date.Format "2006-01-02" }}</p>
+    <img class="single__thumbnail" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+  </header>
+
+  <!-- 本文 -->
+  {{ .Content }}
+
+</article>
+
+
+{{ $currentWeight := .Weight}}
+<section class="section">
+  <div class="section__header">
+    <div class="section__title">記事</div>
+  </div>
+  <div class="section__content">
+    <ul class="pageList">
+      {{ range $coursePages }}
+        {{ $w := .Weight }}
+        {{ if or (eq (add $w 1) $currentWeight) (eq (sub $w 1) $currentWeight) }}
+          <li class="pageList__item">
+            {{ partial "post-page-card.html" . }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+
+{{ end }}

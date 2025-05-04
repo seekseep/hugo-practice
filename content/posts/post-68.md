@@ -1,16 +1,17 @@
 ---
-title: 記事68
-description: コース23 4 の説明
+title: Title with a very long name
+description: フロントエンド開発 1 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E8%A8%98%E4%BA%8B68
-categories: ['category-7', 'category-11', 'category-13']
-courses: ['course-23']
-date: 2023-10-28T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=Title+with+a+very+long+name
+categories: ['category-7', 'category-11', 'category-12']
+courses: ['course-21']
+weight: 2
+date: 2023-10-23T00:00:00.000Z
 ---
 
-# 記事68 4
+# Title with a very long name 1
 
-記事68 4の内容が入ります。
+Title with a very long name 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B68+4)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B68+4)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+1)

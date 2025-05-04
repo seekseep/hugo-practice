@@ -1,16 +1,17 @@
 ---
-title: 記事34
-description: コース12 1 の説明
+title: 12345 と数字の入ったタイトル
+description: モバイルアプリ開発 5 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E8%A8%98%E4%BA%8B34
-categories: ['category-7', 'category-8']
-courses: ['course-12']
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-4', 'category-5']
+courses: ['course-8']
+weight: 6
 date: 2023-10-14T00:00:00.000Z
 ---
 
-# 記事34 1
+# 12345 と数字の入ったタイトル 5
 
-記事34 1の内容が入ります。
+12345 と数字の入ったタイトル 5の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B34+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+5)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B34+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+5)

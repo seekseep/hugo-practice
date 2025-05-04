@@ -1,16 +1,17 @@
 ---
-title: 記事96
-description: コース34 1 の説明
+title: Title with a very long name
+description: 機械学習入門 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B96
-categories: ['category-14', 'category-18', 'category-20']
-courses: ['course-34']
-date: 2023-11-05T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=Title+with+a+very+long+name
+categories: ['category-14', 'category-15', 'category-17']
+courses: ['course-28']
+weight: 3
+date: 2023-10-31T00:00:00.000Z
 ---
 
-# 記事96 1
+# Title with a very long name 2
 
-記事96 1の内容が入ります。
+Title with a very long name 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B96+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B96+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+2)

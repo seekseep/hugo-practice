@@ -1,16 +1,17 @@
 ---
-title: 記事8
-description: コース2 3 の説明
+title: サンプル記事
+description: HTML/CSSデザイン 2 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B8
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
 categories: ['category-0', 'category-1', 'category-2']
 courses: ['course-2']
-date: 2023-10-06T00:00:00.000Z
+weight: 3
+date: 2023-10-05T00:00:00.000Z
 ---
 
-# 記事8 3
+# サンプル記事 2
 
-記事8 3の内容が入ります。
+サンプル記事 2の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B8+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B8+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)

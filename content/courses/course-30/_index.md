@@ -1,37 +1,17 @@
 ---
-title: コース30
-description: コース30の説明
+title: モバイルアプリ開発
+description: モバイルアプリ開発の説明
 date: 2023-10-31T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B930
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA
 categories: ['category-14', 'category-18']
 courses: []
 ---
 
-# コース30 30
+これは モバイルアプリ開発 30 コースの記事の一覧です。
 
-コース30 30の内容が入ります。
+  モバイルアプリ開発 30 コースでは次のような内容について学びます。
 
-## セクション1
-ここにセクション1の内容が入ります。
-
-## セクション2
-ここにセクション2の内容が入ります。
-
-- リスト1
-- リスト2
-- リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-console.log('Hello, world!');
-```
-
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B3%E3%83%BC%E3%82%B930+30)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B3%E3%83%BC%E3%82%B930+30)
+  - セクション1
+  - セクション2
+  - セクション3

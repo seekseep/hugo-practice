@@ -1,16 +1,17 @@
 ---
-title: 記事20
-description: コース7 2 の説明
+title: 12345 と数字の入ったタイトル
+description: データベース基礎 3 の説明
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E8%A8%98%E4%BA%8B20
-categories: ['category-0', 'category-4']
-courses: ['course-7']
-date: 2023-10-10T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5']
+weight: 4
+date: 2023-10-09T00:00:00.000Z
 ---
 
-# 記事20 2
+# 12345 と数字の入ったタイトル 3
 
-記事20 2の内容が入ります。
+12345 と数字の入ったタイトル 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -32,6 +33,6 @@ console.log('Hello, world!');
 ```
 
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E8%A8%98%E4%BA%8B20+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E8%A8%98%E4%BA%8B20+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)

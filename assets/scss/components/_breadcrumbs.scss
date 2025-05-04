@@ -1,0 +1,38 @@
+.breadcrumbs {
+  display: block;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
+
+    &::after {
+      content: '/';
+      margin-left: 0.5rem;
+    }
+    &:last-child {
+      margin-right: 0;
+      &::after {
+        content: '';
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    color: var(--color-text-secondary);
+
+
+    &--active {
+      font-weight: bold;
+      color: var(--color-text-primary);
+    }
+  }
+}
