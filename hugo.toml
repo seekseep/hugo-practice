@@ -6,3 +6,11 @@ defaultContentLanguage = "ja"
 [taxonomies]
 category = "categories"
 course = "courses"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = true

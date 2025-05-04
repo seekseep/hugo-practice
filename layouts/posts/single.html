@@ -28,6 +28,13 @@
     <img class="single__thumbnail" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
   </header>
 
+  {{ if .TableOfContents }}
+    <nav class="toc">
+      <h2>目次</h2>
+      {{ .TableOfContents }}
+    </nav>
+  {{ end }}
+
   <!-- 本文 -->
   {{ .Content }}
 
@@ -37,7 +44,7 @@
 {{ $currentWeight := .Weight}}
 <section class="section">
   <div class="section__header">
-    <div class="section__title">記事</div>
+    <div class="section__title">同じコースの記事</div>
   </div>
   <div class="section__content">
     <ul class="pageList">

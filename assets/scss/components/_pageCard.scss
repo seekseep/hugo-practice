@@ -24,6 +24,8 @@
     font-size: 0.875rem;
     font-weight: 500;
     color: var(--color-text-secondary);
+    text-wrap: nowrap;
+    flex-shrink: 0;
   }
 
   &__title {

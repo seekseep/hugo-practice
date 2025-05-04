@@ -1,17 +1,17 @@
 ---
 title: 基本的な記事
-description: React.js実践 2 の説明
+description: React.js実践 1 の説明
 draft: false
 thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
 categories: ['category-7', 'category-8', 'category-9']
 courses: ['course-14']
-weight: 3
-date: 2023-10-17T00:00:00.000Z
+weight: 2
+date: 2023-10-16T00:00:00.000Z
 ---
 
-# 基本的な記事 2
+# 基本的な記事 1
 
-基本的な記事 2の内容が入ります。
+基本的な記事 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -29,10 +29,51 @@ date: 2023-10-17T00:00:00.000Z
 | データ3   | データ4   |
 
 ```javascript
-console.log('Hello, world!');
+
+function helloWorld() {
+  console.log("Hello, World!");
+}
+
+window.onload = function() {
+  helloWorld();
+}
+
 ```
 
+---
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+2)
+```python
+def hello_world():
+    print("Hello, World!")
+hello_world()
+```
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+2)
+---
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+$$
+\int_{0}^{\infty} e^{-x} dx = 1
+$$
+
+$$
+\lim_{n \to \infty} \sum_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
+$$
+
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\\
+4 & 5 & 6 \\\
+7 & 8 & 9
+\end{bmatrix}
+$$
+
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)
+
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+1)

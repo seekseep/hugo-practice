@@ -1,17 +1,17 @@
 ---
 title: Title with a very long name
-description: フロントエンド開発 1 の説明
+description: フロントエンド開発 4 の説明
 draft: false
 thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=Title+with+a+very+long+name
 categories: ['category-7', 'category-11', 'category-12']
 courses: ['course-21']
-weight: 2
-date: 2023-10-23T00:00:00.000Z
+weight: 5
+date: 2023-10-26T00:00:00.000Z
 ---
 
-# Title with a very long name 1
+# Title with a very long name 4
 
-Title with a very long name 1の内容が入ります。
+Title with a very long name 4の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -29,10 +29,51 @@ Title with a very long name 1の内容が入ります。
 | データ3   | データ4   |
 
 ```javascript
-console.log('Hello, world!');
+
+function helloWorld() {
+  console.log("Hello, World!");
+}
+
+window.onload = function() {
+  helloWorld();
+}
+
 ```
 
+---
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+1)
+```python
+def hello_world():
+    print("Hello, World!")
+hello_world()
+```
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+1)
+---
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+$$
+\int_{0}^{\infty} e^{-x} dx = 1
+$$
+
+$$
+\lim_{n \to \infty} \sum_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
+$$
+
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\\
+4 & 5 & 6 \\\
+7 & 8 & 9
+\end{bmatrix}
+$$
+
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+4)
+
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+4)
