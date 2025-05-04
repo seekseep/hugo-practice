@@ -36,7 +36,9 @@
   {{ end }}
 
   <!-- 本文 -->
-  {{ .Content }}
+  <div data-pagefind-search="{{ .Params.tokenized }}">
+    {{ .Content }}
+  </div>
 
 </article>
 
