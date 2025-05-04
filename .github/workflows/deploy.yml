@@ -5,10 +5,11 @@ on:
     branches:
       - main
 
-env:  # ← これが必要！
+env:
   S3_BUCKET: ${{ vars.S3_BUCKET }}
   CF_DISTRIBUTION_ID: ${{ vars.CF_DISTRIBUTION_ID }}
   AWS_REGION: ${{ vars.AWS_REGION }}
+  ACTIONS_STEP_DEBUG: true
 
 jobs:
   deploy:
