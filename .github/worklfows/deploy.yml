@@ -1,0 +1,47 @@
+name: Deploy Hugo to AWS
+
+on:
+  push:
+    branches:
+      - main
+
+env:  # ← これが必要！
+  S3_BUCKET: ${{ vars.S3_BUCKET }}
+  CF_DISTRIBUTION_ID: ${{ vars.CF_DISTRIBUTION_ID }}
+  AWS_REGION: ${{ vars.AWS_REGION }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site
+        run: hugo
+
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Upload to S3
+        run: |
+          aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CF_DISTRIBUTION_ID }} \
+            --paths "/*"
