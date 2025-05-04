@@ -1,0 +1,13 @@
+:root {
+  --font-size: 16px;
+  --font-family: sans-serif;
+  --line-height: 1.6;
+  --color-text-secondary: #6c757d;
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+@import "../mixins";
+@import "../variables";
+
+.pageList {
+  list-style: none;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(1, 1fr);
+
+  @include respond-up ($breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include respond-up ($breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__item {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,13 @@
+<a class="pageCard" href="{{ .RelPermalink }}">
+  <article class="pageCard__container">
+    <div class="pageCard_header">
+      {{ if .Params.thumbnail }}
+      <img class="pageCard__thumbnail" src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+      {{ else }}
+      <img class="pageCard__thumbnail" src="https://dummyimage.com/600x400/CCC/FFF&text=NO_IMAGE"
+        alt="{{ .Title }}" />
+      {{ end }}
+    </div>
+    <h2 class="pageCard__title">{{ .Title }}</h2>
+  </article>
+</a>

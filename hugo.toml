@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja-JP'
+title = 'サンプルサイト'
+defaultContentLanguage = "ja"
+
+[taxonomies]
+category = "categories"
+course = "courses"

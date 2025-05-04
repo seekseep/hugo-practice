@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div class="lead">
+  <div class="lead__main">
+    <p class="lead__text">
+      ここにウェブサイトのリード文が入ります。<br />
+      サイトの内容や目的を簡潔に説明する文を記載します。
+    </p>
+  </div>
+  <div class="lead__actions">
+    <a class="lead__action" href="/about/">
+      さらに詳しい情報を見る
+    </a>
+  </div>
+</div>
+
+<section class="homeSection">
+  <header class="homeSection__header">
+    <h1 class="homeSection__title">最新の投稿</h1>
+  </header>
+  <div class="homeSection__content">
+    <ul class="pageList">
+      {{ $postPages := where .Site.RegularPages "Section" "posts" }}
+      {{ $sortedPostPages := sort $postPages "Lastmod" "desc" }}
+      {{ range first 8 $sortedPostPages }}
+      <li class="pageList__item">
+        {{ partial "post-page-card.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="homeSection">
+  <header class="homeSection__header">
+    <h1 class="homeSection__title">最近更新されたコース</h1>
+  </header>
+  <div class="homeSection__content">
+    <ul class="pageList">
+      {{ $termPages := where .Site.Pages "Kind" "term"}}
+      {{ $courseTermPages := where $termPages "Type" "courses"}}
+      {{ $sortedCourseTermPages := sort $courseTermPages "Lastmod" "desc" }}
+      {{ range first 8 $sortedCourseTermPages }}
+      <li class="pageList__item">
+        {{ partial "page-card.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="homeSection">
+  <header class="homeSection__header">
+    <h1 class="homeSection__title">カテゴリ</h1>
+  </header>
+  <div class="homeSection__content">
+    <ul class="pageList">
+      {{ $termPages := where .Site.Pages "Kind" "term"}}
+      {{ $categoryTermPages := where $termPages "Type" "categories"}}
+      {{ $sortedCategoryTermPages := sort $categoryTermPages "Title" "desc" }}
+      {{ range $sortedCategoryTermPages }}
+        {{ if or (not (isset .Params "categories")) (eq (len .Params.categories) 0) }}
+        <li class="pageList__item">
+          {{ partial "page-card.html" . }}
+        </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+{{ end }}

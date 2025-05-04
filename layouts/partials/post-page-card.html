@@ -1,0 +1,48 @@
+<a class="pageCard" href="{{ .RelPermalink }}">
+  {{ $thumbnailUrl := .Params.thumbnail }}
+  {{ if not $thumbnailUrl }}
+  {{ $thumbnailUrl = "https://dummyimage.com/600x400/CCC/FFF&text=NO_IMAGE" }}
+  {{ end }}
+
+  {{ $dateForAttribute := .Date.Format "2006-01-02" }}
+  {{ $dateForDisplay := .Date.Format "2006年01月02日" }}
+
+  {{ $categories := slice }}
+  {{ range .Params.categories }}
+    {{ with site.GetPage (printf "categories/%s" .) }}
+      {{ $categories = $categories | append .Title }}
+    {{ end }}
+  {{ end }}
+
+  {{ $courseName := "" }}
+  {{ if gt (len .Params.courses) 0 }}
+    {{ $lastCourse := index .Params.courses (sub (len .Params.courses) 1) }}
+    {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
+      {{ $courseName = .Title }}
+    {{ end }}
+  {{ end }}
+
+  <article class="pageCard__container">
+    <img class="pageCard__thumbnail" src="{{ $thumbnailUrl }}" alt="{{ .Title }}" />
+
+    <div class="pageCard__header">
+      <div class="pageCard__course">
+        <div class="badge">{{ $courseName }}</div>
+      </div>
+      <time class="pageCard__time" datetime={{$dateForAttribute}} >
+        {{$dateForDisplay}}
+      </time>
+    </div>
+
+    <div class="pageCard__body">
+      <h2 class="pageCard__title">{{ .Title }}</h2>
+      <ul class="pageCard__categories">
+        {{ range $categories }}
+          <li class="pageCard__category">
+            {{ . }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </article>
+</a>

@@ -1,0 +1,62 @@
+.pageCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.875rem;
+  }
+
+  &__thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 0.875rem;
+  }
+
+  &__course {
+    flex-grow: 1;
+  }
+
+  &__time {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.25rem 0;
+  }
+
+  &__categories {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    list-style: none;
+  }
+
+  &__category {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &::after {
+      content: "/";
+    }
+
+    &:last-child::after {
+      content: "";
+    }
+  }
+
+  &__body {
+    padding-bottom: 0.875rem;
+  }
+}

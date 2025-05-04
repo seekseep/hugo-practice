@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="single">
+  <header class="single__header">
+    {{ if .Params.thumbnail }}
+      <img class="single__thumbnail" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+    {{ end }}
+    <h1 class="single__title">{{ .Title }}</h1>
+    <p class="single__date">{{ .Date.Format "2006-01-02" }}</p>
+  </header>
+  {{ .Content }}
+</article>
+{{ end }}

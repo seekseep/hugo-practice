@@ -1,0 +1,16 @@
+<header class="header">
+  <a class="header__brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      {{ $staticPages := where .Site.RegularPages "Section" "static-pages" }}
+      {{ $sortedStaticPages := sort $staticPages ".Params.weight" }}
+      {{ range $sortedStaticPages }}
+        <li class="header__nav-item">
+          <a class="header__nav-item-link" href="{{ .RelPermalink }}">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
