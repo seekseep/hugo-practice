@@ -1,12 +1,12 @@
 ---
 title: サンプル記事
-description: モバイルアプリ開発 2 の説明
+description: Python基礎 の記事 2
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-14', 'category-18']
-courses: ['course-30']
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5-0-0']
 weight: 3
-date: 2023-11-02T00:00:00.000Z
+date: 2023-11-27T00:00:00.000Z
 ---
 
 # サンプル記事 2

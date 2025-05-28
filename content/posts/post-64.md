@@ -1,12 +1,12 @@
 ---
 title: サンプル記事
-description: とても長いコースの名称は略称と付けられることを想定しているだろうと思う 3 の説明
+description: 機械学習入門 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-11', 'category-12']
-courses: ['course-20']
+thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-5-4']
 weight: 4
-date: 2023-10-24T00:00:00.000Z
+date: 2023-11-22T00:00:00.000Z
 ---
 
 # サンプル記事 3

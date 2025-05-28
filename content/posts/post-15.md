@@ -1,12 +1,12 @@
 ---
 title: サンプル記事
-description: データベース基礎 1 の説明
+description: モバイルアプリ開発 の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-0', 'category-1', 'category-3']
-courses: ['course-5']
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-1-2-1']
 weight: 2
-date: 2023-10-07T00:00:00.000Z
+date: 2023-11-11T00:00:00.000Z
 ---
 
 # サンプル記事 1

@@ -1,12 +1,12 @@
 ---
 title: 長いタイトルは略称と付けられることを想定しているだろうと思う
-description: Node.jsサーバー構築 1 の説明
+description: フロントエンド開発 の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
-categories: ['category-14', 'category-15', 'category-16']
-courses: ['course-26']
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-0', 'category-1', 'category-2']
+courses: ['course-3-1-3']
 weight: 2
-date: 2023-10-28T00:00:00.000Z
+date: 2023-11-24T00:00:00.000Z
 ---
 
 # 長いタイトルは略称と付けられることを想定しているだろうと思う 1

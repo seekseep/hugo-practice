@@ -1,12 +1,12 @@
 ---
 title: Title with a very long name
-description: AIプログラミング 3 の説明
+description: Node.jsサーバー構築 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=Title+with+a+very+long+name
-categories: ['category-14', 'category-15', 'category-17']
-courses: ['course-29']
+thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-1', 'category-2']
+courses: ['course-4']
 weight: 4
-date: 2023-11-02T00:00:00.000Z
+date: 2023-10-07T00:00:00.000Z
 ---
 
 # Title with a very long name 3

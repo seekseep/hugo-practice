@@ -1,17 +1,17 @@
 ---
 title: Title with a very long name
-description: Python基礎 1 の説明
+description: データベース基礎 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=Title+with+a+very+long+name
+thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=Title+with+a+very+long+name
 categories: ['category-0', 'category-1']
-courses: ['course-1']
-weight: 2
-date: 2023-10-03T00:00:00.000Z
+courses: ['course-1-1-1']
+weight: 4
+date: 2023-11-10T00:00:00.000Z
 ---
 
-# Title with a very long name 1
+# Title with a very long name 3
 
-Title with a very long name 1の内容が入ります。
+Title with a very long name 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+3)

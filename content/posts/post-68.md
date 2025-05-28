@@ -1,17 +1,17 @@
 ---
 title: Title with a very long name
-description: フロントエンド開発 4 の説明
+description: React.js実践 の記事 0
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=Title+with+a+very+long+name
-categories: ['category-7', 'category-11', 'category-12']
-courses: ['course-21']
-weight: 5
-date: 2023-10-26T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-1', 'category-2']
+courses: ['course-3']
+weight: 1
+date: 2023-10-03T00:00:00.000Z
 ---
 
-# Title with a very long name 4
+# Title with a very long name 0
 
-Title with a very long name 4の内容が入ります。
+Title with a very long name 0の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+4)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+0)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+4)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+0)

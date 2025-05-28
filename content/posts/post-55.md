@@ -1,12 +1,12 @@
 ---
 title: 12345 と数字の入ったタイトル
-description: 機械学習入門 1 の説明
+description: データベース基礎 の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
-categories: ['category-7', 'category-8', 'category-10']
-courses: ['course-17']
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1']
+courses: ['course-2-5-3']
 weight: 2
-date: 2023-10-19T00:00:00.000Z
+date: 2023-11-19T00:00:00.000Z
 ---
 
 # 12345 と数字の入ったタイトル 1

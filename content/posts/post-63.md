@@ -1,12 +1,12 @@
 ---
 title: 基本的な記事
-description: とても長いコースの名称は略称と付けられることを想定しているだろうと思う 2 の説明
+description: 機械学習入門 の記事 2
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-11', 'category-12']
-courses: ['course-20']
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-5-4']
 weight: 3
-date: 2023-10-23T00:00:00.000Z
+date: 2023-11-21T00:00:00.000Z
 ---
 
 # 基本的な記事 2

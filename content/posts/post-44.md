@@ -1,12 +1,12 @@
 ---
 title: これはある程度長い記事のタイトル
-description: Python基礎 3 の説明
+description: JavaScript入門 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
-categories: ['category-7', 'category-8']
-courses: ['course-12']
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1']
+courses: ['course-2-3']
 weight: 4
-date: 2023-10-16T00:00:00.000Z
+date: 2023-11-16T00:00:00.000Z
 ---
 
 # これはある程度長い記事のタイトル 3

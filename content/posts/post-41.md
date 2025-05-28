@@ -1,17 +1,17 @@
 ---
 title: 12345 と数字の入ったタイトル
-description: JavaScript入門 3 の説明
+description: Python基礎 の記事 0
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
-categories: ['category-0', 'category-4', 'category-6']
-courses: ['course-11']
-weight: 4
-date: 2023-10-15T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1']
+courses: ['course-2-3-2']
+weight: 1
+date: 2023-11-14T00:00:00.000Z
 ---
 
-# 12345 と数字の入ったタイトル 3
+# 12345 と数字の入ったタイトル 0
 
-12345 と数字の入ったタイトル 3の内容が入ります。
+12345 と数字の入ったタイトル 0の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+0)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+0)

@@ -1,17 +1,17 @@
 ---
 title: Title with a very long name
-description: 機械学習入門 1 の説明
+description: モバイルアプリ開発 の記事 5
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=Title+with+a+very+long+name
-categories: ['category-0', 'category-4']
-courses: ['course-6']
-weight: 2
-date: 2023-10-08T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-1']
+courses: ['course-1-2-1']
+weight: 6
+date: 2023-11-15T00:00:00.000Z
 ---
 
-# Title with a very long name 1
+# Title with a very long name 5
 
-Title with a very long name 1の内容が入ります。
+Title with a very long name 5の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=Title+with+a+very+long+name+5)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=Title+with+a+very+long+name+5)

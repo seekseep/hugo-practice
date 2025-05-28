@@ -1,17 +1,17 @@
 ---
 title: これはある程度長い記事のタイトル
-description: JavaScript入門 1 の説明
+description: HTML/CSSデザイン の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
-categories: ['category-14', 'category-18', 'category-19']
-courses: ['course-33']
-weight: 2
-date: 2023-11-04T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5-0-1']
+weight: 4
+date: 2023-11-29T00:00:00.000Z
 ---
 
-# これはある程度長い記事のタイトル 1
+# これはある程度長い記事のタイトル 3
 
-これはある程度長い記事のタイトル 1の内容が入ります。
+これはある程度長い記事のタイトル 3の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%81%93%E3%82%8C%E3%81%AF%E3%81%82%E3%82%8B%E7%A8%8B%E5%BA%A6%E9%95%B7%E3%81%84%E8%A8%98%E4%BA%8B%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB+3)

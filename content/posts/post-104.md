@@ -1,12 +1,12 @@
 ---
 title: 12345 と数字の入ったタイトル
-description: Python基礎 1 の説明
+description: React.js実践 の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
-categories: ['category-14', 'category-18', 'category-20']
-courses: ['course-34']
+thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=12345+%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5-0-3']
 weight: 2
-date: 2023-11-05T00:00:00.000Z
+date: 2023-11-28T00:00:00.000Z
 ---
 
 # 12345 と数字の入ったタイトル 1

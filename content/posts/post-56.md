@@ -1,12 +1,12 @@
 ---
 title: 基本的な記事
-description: 機械学習入門 2 の説明
+description: データベース基礎 の記事 2
 draft: false
-thumbnail: https://dummyimage.com/600x400/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-8', 'category-10']
-courses: ['course-17']
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-5-3']
 weight: 3
-date: 2023-10-20T00:00:00.000Z
+date: 2023-11-20T00:00:00.000Z
 ---
 
 # 基本的な記事 2

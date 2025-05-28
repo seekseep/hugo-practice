@@ -1,17 +1,17 @@
 ---
 title: サンプル記事
-description: React.js実践 2 の説明
+description: HTML/CSSデザイン の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-8', 'category-9']
-courses: ['course-14']
-weight: 3
-date: 2023-10-17T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-5']
+weight: 2
+date: 2023-11-16T00:00:00.000Z
 ---
 
-# サンプル記事 2
+# サンプル記事 1
 
-サンプル記事 2の内容が入ります。
+サンプル記事 1の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+2)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)

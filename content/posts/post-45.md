@@ -1,12 +1,12 @@
 ---
 title: ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う
-description: Python基礎 4 の説明
+description: JavaScript入門 の記事 4
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
-categories: ['category-7', 'category-8']
-courses: ['course-12']
+thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%81%8B%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-0', 'category-1']
+courses: ['course-2-3']
 weight: 5
-date: 2023-10-17T00:00:00.000Z
+date: 2023-11-17T00:00:00.000Z
 ---
 
 # ライトノベルかのように長いタイトルは略称と付けられることを想定しているだろうと思う 4

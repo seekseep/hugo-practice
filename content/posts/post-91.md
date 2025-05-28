@@ -1,12 +1,12 @@
 ---
 title: 基本的な記事
-description: モバイルアプリ開発 1 の説明
+description: Python基礎 の記事 1
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
-categories: ['category-14', 'category-18']
-courses: ['course-30']
+thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1', 'category-3']
+courses: ['course-5-0-0']
 weight: 2
-date: 2023-11-01T00:00:00.000Z
+date: 2023-11-26T00:00:00.000Z
 ---
 
 # 基本的な記事 1

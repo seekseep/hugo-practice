@@ -1,30 +1,34 @@
 {{ define "main" }}
-  {{ partial "breadcrumbs-as-category.html" . }}
+{{ partial "breadcrumbs-as-category.html" . }}
+<section class="section">
+  <div class="section__header">
+    <h1 class="section__title">{{ .Title }}</h1>
+  </div>
+  <div class="section__content">
+    {{ .Content }}
+  </div>
+</section>
 
-  <section class="section">
-    <div class="section__header">
-      <h1 class="section__title">{{ .Title }}</h1>
-    </div>
-    <div class="section__content">
-      {{ .Content }}
-    </div>
+<section class="section">
+  <div class="section__header">
+    <div class="section__title">内容</div>
+  </div>
+  <div class="section__content">
+    {{ $regular := .Site.RegularPages }}
+    {{ $taxonomyPages := slice }}
+    {{ range .Site.Taxonomies.courses }}
+      {{ $taxonomyPages = $taxonomyPages | append .Page }}
+    {{ end }}
 
-  </section>
-
-  <section class="section">
-    <div class="section__header">
-      <div class="section__title">記事</div>
-    </div>
-    <div class="section__content">
-      <ul class="pageList">
-        {{ $postPages := where .RegularPages "Section" "posts" }}
-        {{ $sortedPostPages := sort $postPages "Lastmod" "desc" }}
-        {{ range first 8 $sortedPostPages }}
-        <li class="pageList__item">
-          {{ partial "post-page-card.html" . }}
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
+    {{ $allPages := union $regular $taxonomyPages }}
+    {{ $matching := where $allPages "Params.courses" "intersect" (slice .Name) }}
+    <ul class="courseItemList">
+      {{ range sort $matching "Params.weight" }}
+      <li class="courseItemList__item">
+        {{ partial "course-item-card.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
 {{ end }}

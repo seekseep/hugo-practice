@@ -1,12 +1,12 @@
 ---
 title: Title with a very long name
-description: Node.jsサーバー構築 2 の説明
+description: フロントエンド開発 の記事 2
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=Title+with+a+very+long+name
-categories: ['category-14', 'category-15', 'category-16']
-courses: ['course-26']
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=Title+with+a+very+long+name
+categories: ['category-0', 'category-1', 'category-2']
+courses: ['course-3-1-3']
 weight: 3
-date: 2023-10-29T00:00:00.000Z
+date: 2023-11-25T00:00:00.000Z
 ---
 
 # Title with a very long name 2

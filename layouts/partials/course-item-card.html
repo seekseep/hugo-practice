@@ -1,0 +1,57 @@
+<a class="courseItemCard" href="{{ .RelPermalink }}">
+  {{ $thumbnailUrl := .Params.thumbnail }}
+  {{ if not $thumbnailUrl }}
+  {{ $thumbnailUrl = "https://dummyimage.com/600x400/CCC/FFF&text=NO_IMAGE" }}
+  {{ end }}
+
+  {{ $dateForAttribute := .Date.Format "2006-01-02" }}
+  {{ $dateForDisplay := .Date.Format "2006年01月02日" }}
+
+  {{ $categories := slice }}
+  {{ range .Params.categories }}
+    {{ with site.GetPage (printf "categories/%s" .) }}
+      {{ $categories = $categories | append .Title }}
+    {{ end }}
+  {{ end }}
+
+  {{ $courseName := "" }}
+  {{ if .Params.courses }}
+    {{ if gt (len .Params.courses) 0 }}
+      {{ $lastCourse := index .Params.courses (sub (len .Params.courses) 1) }}
+      {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
+        {{ $courseName = .Title }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <article class="courseItemCard__container">
+    <img class="courseItemCard__thumbnail" src="{{ $thumbnailUrl }}" alt="{{ .Title }}" />
+
+    <div class="courseItemCard__header">
+      <div class="courseItemCard__course">
+        <div class="badge">{{ $courseName }}</div>
+      </div>
+      <time class="courseItemCard__time" datetime={{$dateForAttribute}} >
+        {{$dateForDisplay}}
+      </time>
+    </div>
+
+    <div class="courseItemCard__body">
+      <h2 class="courseItemCard__title">
+        {{ if eq .Kind "term" }}
+          📂
+        {{ else }}
+          📄
+        {{ end }}
+        {{ .Title }}
+      </h2>
+      <ul class="courseItemCard__categories">
+        {{ range $categories }}
+          <li class="courseItemCard__category">
+            {{ . }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </article>
+</a>

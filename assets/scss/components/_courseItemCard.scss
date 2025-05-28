@@ -1,0 +1,78 @@
+.courseItemCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      "thumbnail header"
+      "thumbnail body";
+  }
+
+  &__thumbnail {
+    grid-area: thumbnail;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    grid-area: header;
+  }
+
+  &__body {
+    grid-area: body;
+  }
+
+
+
+  &__course {
+    flex-grow: 1;
+  }
+
+  &__time {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-wrap: nowrap;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.25rem 0;
+  }
+
+  &__categories {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    list-style: none;
+  }
+
+  &__category {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &::after {
+      content: "/";
+    }
+
+    &:last-child::after {
+      content: "";
+    }
+  }
+
+
+}

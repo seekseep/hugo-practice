@@ -1,17 +1,17 @@
 ---
 title: サンプル記事
-description: AIプログラミング 1 の説明
+description: とても長いコースの名称は略称と付けられることを想定しているだろうと思う の記事 0
 draft: false
-thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-0', 'category-4']
-courses: ['course-7']
-weight: 2
-date: 2023-10-09T00:00:00.000Z
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-1-2-4']
+weight: 1
+date: 2023-11-11T00:00:00.000Z
 ---
 
-# サンプル記事 1
+# サンプル記事 0
 
-サンプル記事 1の内容が入ります。
+サンプル記事 0の内容が入ります。
 
 ## セクション1
 ここにセクション1の内容が入ります。
@@ -74,6 +74,6 @@ $$
 \end{bmatrix}
 $$
 
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)
+![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+0)
 
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+1)
+![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B+0)

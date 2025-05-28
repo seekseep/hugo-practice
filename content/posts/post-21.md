@@ -1,12 +1,12 @@
 ---
 title: 基本的な記事
-description: 機械学習入門 3 の説明
+description: 機械学習入門 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
-categories: ['category-0', 'category-4']
-courses: ['course-6']
+thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-1-2']
 weight: 4
-date: 2023-10-10T00:00:00.000Z
+date: 2023-11-11T00:00:00.000Z
 ---
 
 # 基本的な記事 3

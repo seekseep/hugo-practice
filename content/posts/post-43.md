@@ -1,12 +1,12 @@
 ---
 title: サンプル記事
-description: Python基礎 2 の説明
+description: Python基礎 の記事 2
 draft: false
-thumbnail: https://dummyimage.com/600x400/38A169/F0FFF4?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-8']
-courses: ['course-12']
+thumbnail: https://dummyimage.com/600x400/3182CE/EBF8FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-3-2']
 weight: 3
-date: 2023-10-15T00:00:00.000Z
+date: 2023-11-16T00:00:00.000Z
 ---
 
 # サンプル記事 2

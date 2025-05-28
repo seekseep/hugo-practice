@@ -1,16 +1,17 @@
 ---
 title: Node.jsサーバー構築
 description: Node.jsサーバー構築の説明
-date: 2023-10-05T00:00:00.000Z
+date: 2023-10-04T00:00:00.000Z
 draft: false
-thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=Node.js%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89
-categories: ['category-0', 'category-1', 'category-3']
+thumbnail: https://dummyimage.com/600x400/D69E2E/FEFCBF?text=Node.js%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E7%AF%89
+categories: ['category-0', 'category-1', 'category-2']
 courses: []
+weight: 1
 ---
 
-これは Node.jsサーバー構築 4 コースの記事の一覧です。
+これは Node.jsサーバー構築 コースの記事の一覧です。
 
-  Node.jsサーバー構築 4 コースでは次のような内容について学びます。
+  Node.jsサーバー構築 コースでは次のような内容について学びます。
 
   - セクション1
   - セクション2

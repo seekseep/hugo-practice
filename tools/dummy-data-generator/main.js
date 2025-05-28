@@ -151,7 +151,7 @@ const getNextCategory = (function () {
 })();
 
 const getNextCourse = (function () {
-  let count = 0;
+  let count = 1;
 
   const courseTitles = [
     'JavaScript入門',
@@ -236,8 +236,12 @@ const getNextThumbnail = (function () {
   };
 })();
 
-function createCourseRecursively(course, createPage, depth = 0) {
+const courseLogLines = [];
+
+function createCourseRecursively(course, createPage, depth = 0, indent = '') {
   const courseDir = `courses/${course.name}`;
+  courseLogLines.push(`${indent}📁 ${course.name} ${course.title}`);
+
   createPage(`${courseDir}/_index`, {
     title: course.title,
     description: `${course.title}の説明`,
@@ -245,7 +249,8 @@ function createCourseRecursively(course, createPage, depth = 0) {
     draft: false,
     thumbnail: course.thumbnail,
     categories: course.categories,
-    courses: []
+    courses: course.cources ?? [],
+    weight: course.weight ?? 1, // ← 追加
   }, createCourseContent(course.title));
 
   const totalItems = Math.floor(Math.random() * 5) + 3;
@@ -253,7 +258,9 @@ function createCourseRecursively(course, createPage, depth = 0) {
     const isPost = Math.random() < 0.6 || depth >= 2;
     if (isPost) {
       const post = getNextPost();
-      createPage(`${courseDir}/post-${post.name}`, {
+      courseLogLines.push(`${indent}  📄 ${post.name}.md ${post.title}`);
+
+      createPage(`posts/${post.name}`, {
         title: post.title,
         description: `${course.title} の記事 ${i}`,
         draft: false,
@@ -269,7 +276,10 @@ function createCourseRecursively(course, createPage, depth = 0) {
       child.categories = course.categories;
       child.baseDate = getNextBaseDate();
       child.thumbnail = getNextThumbnail(child.title);
-      createCourseRecursively(child, createPage, depth + 1);
+      child.cources = course.name ? [course.name] : [];
+      child.weight = i + 1;
+
+      createCourseRecursively(child, createPage, depth + 1, indent + '  '); // ← indent拡張
     }
   }
 }
@@ -382,6 +392,9 @@ function main (args) {
   courses.forEach(course => {
     createCourseRecursively(course, createPage);
   });
+
+  console.log('Created categories:');
+  console.log(courseLogLines.join('\n'));
 }
 
 main(process.argv);

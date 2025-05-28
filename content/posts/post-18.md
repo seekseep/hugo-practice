@@ -1,12 +1,12 @@
 ---
 title: 長いタイトルは略称と付けられることを想定しているだろうと思う
-description: データベース基礎 4 の説明
+description: モバイルアプリ開発 の記事 4
 draft: false
-thumbnail: https://dummyimage.com/600x400/D53F8C/FFF5F7?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
-categories: ['category-0', 'category-1', 'category-3']
-courses: ['course-5']
+thumbnail: https://dummyimage.com/600x400/2D3748/F5F7FA?text=%E9%95%B7%E3%81%84%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AF%E7%95%A5%E7%A7%B0%E3%81%A8%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E6%83%B3%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A0%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%86
+categories: ['category-0', 'category-1']
+courses: ['course-1-2-1']
 weight: 5
-date: 2023-10-10T00:00:00.000Z
+date: 2023-11-14T00:00:00.000Z
 ---
 
 # 長いタイトルは略称と付けられることを想定しているだろうと思う 4

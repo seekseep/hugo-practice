@@ -1,12 +1,12 @@
 ---
 title: サンプル記事
-description: 機械学習入門 3 の説明
+description: データベース基礎 の記事 3
 draft: false
-thumbnail: https://dummyimage.com/600x400/2C7A7B/E6FFFA?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
-categories: ['category-7', 'category-8', 'category-10']
-courses: ['course-17']
+thumbnail: https://dummyimage.com/600x400/805AD5/FAF5FF?text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E8%A8%98%E4%BA%8B
+categories: ['category-0', 'category-1']
+courses: ['course-2-5-3']
 weight: 4
-date: 2023-10-21T00:00:00.000Z
+date: 2023-11-21T00:00:00.000Z
 ---
 
 # サンプル記事 3
