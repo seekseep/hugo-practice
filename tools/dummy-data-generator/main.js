@@ -225,7 +225,7 @@ const createDummyImage = (function () {
     url.searchParams.set('text', text.slice(0, 128));
     return url.toString();
   }
-})()
+})();
 
 const getNextThumbnail = (function () {
   const width = 600;
@@ -235,6 +235,44 @@ const getNextThumbnail = (function () {
     return createDummyImage(width, height, title, index++);
   };
 })();
+
+function createCourseRecursively(course, createPage, depth = 0) {
+  const courseDir = `courses/${course.name}`;
+  createPage(`${courseDir}/_index`, {
+    title: course.title,
+    description: `${course.title}の説明`,
+    date: course.baseDate.toISOString(),
+    draft: false,
+    thumbnail: course.thumbnail,
+    categories: course.categories,
+    courses: []
+  }, createCourseContent(course.title));
+
+  const totalItems = Math.floor(Math.random() * 5) + 3;
+  for (let i = 0; i < totalItems; i++) {
+    const isPost = Math.random() < 0.6 || depth >= 2;
+    if (isPost) {
+      const post = getNextPost();
+      createPage(`${courseDir}/post-${post.name}`, {
+        title: post.title,
+        description: `${course.title} の記事 ${i}`,
+        draft: false,
+        thumbnail: getNextThumbnail(post.title),
+        categories: course.categories,
+        courses: [course.name],
+        weight: i + 1,
+        date: add(course.baseDate, { days: i }).toISOString(),
+      }, createPostContent(`${post.title} ${i}`));
+    } else {
+      const child = getNextCourse();
+      child.name = `${course.name}-${i}`;
+      child.categories = course.categories;
+      child.baseDate = getNextBaseDate();
+      child.thumbnail = getNextThumbnail(child.title);
+      createCourseRecursively(child, createPage, depth + 1);
+    }
+  }
+}
 
 function main (args) {
   let projectRoot = __dirname;
@@ -341,30 +379,9 @@ function main (args) {
     }, createCategoryContent(category.title));
   });
 
-  courses.forEach((course, i) => {
-    createPage(`courses/${course.name}/_index`, {
-      title: `${course.title}`,
-      description: `${course.title}の説明`,
-      date: course.baseDate.toISOString(),
-      draft: false,
-      thumbnail: course.thumbnail,
-      categories: course.categories,
-      courses: []
-    }, createCourseContent(`${course.title} ${i}`));
-    for (let i = 1; i <= course.count; i++) {
-      const post = getNextPost();
-      createPage(`posts/${post.name}`, {
-        title: post.title,
-        description: `${course.title} ${i} の説明`,
-        draft: false,
-        thumbnail: getNextThumbnail(post.title),
-        categories: course.categories,
-        courses: [course.name],
-        weight: i + 1,
-        date: add(course.baseDate, { days: i }).toISOString(),
-      }, createPostContent(`${post.title} ${i}`));
-    }
-  })
+  courses.forEach(course => {
+    createCourseRecursively(course, createPage);
+  });
 }
 
 main(process.argv);
