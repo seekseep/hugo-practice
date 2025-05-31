@@ -8,6 +8,7 @@ on:
 env:
   S3_BUCKET: ${{ vars.S3_BUCKET }}
   CF_DISTRIBUTION_ID: ${{ vars.CF_DISTRIBUTION_ID }}
+  CF_DOMAIN: ${{ vars.CF_DOMAIN }}
   AWS_REGION: ${{ vars.AWS_REGION }}
   ACTIONS_STEP_DEBUG: true
 
@@ -29,7 +30,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo
+        run: hugo --baseURL "https://${{ env.CF_DOMAIN }}/"
 
       - name: Configure AWS credentials using OIDC
         uses: aws-actions/configure-aws-credentials@v3
