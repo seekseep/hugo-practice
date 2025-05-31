@@ -6,12 +6,14 @@
 {{ $courseParmaLink :="" }}
 {{ $coursePages := slice }}
 
-{{ if gt (len .Params.courses) 0 }}
-  {{ $lastCourse := index .Params.courses (sub (len .Params.courses) 1) }}
-  {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
-    {{ $courseName = .Title }}
-    {{ $courseParmaLink = .RelPermalink }}
-    {{ $coursePages = .RegularPages }}
+{{ with .Params.courses }}
+  {{ if gt (len .) 0 }}
+    {{ $lastCourse := index . (sub (len .) 1) }}
+    {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
+      {{ $courseName = .Title }}
+      {{ $courseParmaLink = .RelPermalink }}
+      {{ $coursePages = .RegularPages }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
