@@ -18,11 +18,13 @@
 <article class="single">
 
   <header class="single__header">
+    {{ if $courseName }}
     <div>
       <a href="{{ $courseParmaLink }}" class="badge badge-lg">
         {{ $courseName }}
       </a>
     </div>
+    {{ end }}
     <h1 class="single__title">{{ .Title }}</h1>
     <p class="single__date">{{ .Date.Format "2006-01-02" }}</p>
     <img class="single__thumbnail" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">

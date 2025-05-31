@@ -1,8 +1,7 @@
 <a class="pageCard" href="{{ .RelPermalink }}">
-  コース
   {{ $thumbnailUrl := .Params.thumbnail }}
   {{ if not $thumbnailUrl }}
-  {{ $thumbnailUrl = "https://dummyimage.com/600x400/CCC/FFF&text=NO_IMAGE" }}
+    {{ $thumbnailUrl = "https://dummyimage.com/600x400/CCC/FFF&text=NO_IMAGE" }}
   {{ end }}
 
   {{ $dateForAttribute := .Date.Format "2006-01-02" }}
@@ -16,7 +15,7 @@
   {{ end }}
 
   {{ $courseName := "" }}
-  {{ if gt (len .Params.courses) 0 }}
+  {{ if and (isset .Params "courses") (gt (len .Params.courses) 0) }}
     {{ $lastCourse := index .Params.courses (sub (len .Params.courses) 1) }}
     {{ with site.GetPage (printf "courses/%s" $lastCourse) }}
       {{ $courseName = .Title }}
@@ -27,11 +26,13 @@
     <img class="pageCard__thumbnail" src="{{ $thumbnailUrl }}" alt="{{ .Title }}" />
 
     <div class="pageCard__header">
-      <div class="pageCard__course">
-        <div class="badge">{{ $courseName }}</div>
-      </div>
-      <time class="pageCard__time" datetime={{$dateForAttribute}} >
-        {{$dateForDisplay}}
+      {{ if $courseName }}
+        <div class="pageCard__course">
+          <div class="badge">{{ $courseName }}</div>
+        </div>
+      {{ end }}
+      <time class="pageCard__time" datetime="{{ $dateForAttribute }}">
+        {{ $dateForDisplay }}
       </time>
     </div>
 
@@ -39,9 +40,7 @@
       <h2 class="pageCard__title">{{ .Title }}</h2>
       <ul class="pageCard__categories">
         {{ range $categories }}
-          <li class="pageCard__category">
-            {{ . }}
-          </li>
+          <li class="pageCard__category">{{ . }}</li>
         {{ end }}
       </ul>
     </div>

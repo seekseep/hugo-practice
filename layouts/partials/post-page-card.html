@@ -26,9 +26,11 @@
     <img class="pageCard__thumbnail" src="{{ $thumbnailUrl }}" alt="{{ .Title }}" />
 
     <div class="pageCard__header">
+      {{ if $courseName }}
       <div class="pageCard__course">
         <div class="badge">{{ $courseName }}</div>
       </div>
+      {{ end }}
       <time class="pageCard__time" datetime={{$dateForAttribute}} >
         {{$dateForDisplay}}
       </time>
