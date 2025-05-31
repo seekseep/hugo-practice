@@ -10,73 +10,139 @@ courses:
 weight: 1
 date: 2025-05-30T00:00:00.000Z
 ---
-# 基本的な記事 0
 
-基本的な記事 0の内容が入ります。
+# Webページ
 
-## セクション1
+ウェブページは、HTMLとCSSを使って作成されます。HTMLはページの構造を定義し、CSSはそのスタイルを指定します。
 
-ここにセクション1の内容が入ります。
+# HTML
 
-## セクション2
+HTML（HyperText Markup Language）は、ウェブページの基本的な構造を定義するための言語です。HTMLは要素と呼ばれるタグで構成され、これらのタグを使ってテキスト、画像、リンクなどを配置します。
 
-ここにセクション2の内容が入ります。
+## HTMLの基本構造
 
-* リスト1
-* リスト2
-* リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
-
-```javascript
-
-function helloWorld() {
-  console.log("Hello, World!");
-}
-
-window.onload = function() {
-  helloWorld();
-}
-
+```html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ウェブページのタイトル</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>ウェブページの見出し</h1>
+    </header>
+    <main>
+      <p>ここに本文が入ります。</p>
+      <a href="https://example.com">リンクのテキスト</a>
+    </main>
+    <footer>
+      <p>フッターの内容</p>
+    </footer>
+  </body
+</html>
 ```
 
-***
+## よくつかうタグ
 
-```python
-def hello_world():
-    print("Hello, World!")
-hello_world()
+- `<h1>`〜`<h6>`: 見出しを定義します。`<h1>`が最も重要な見出しで、`<h6>`が最も重要度の低い見出しです。
+- `<p>`: 段落を定義します。
+- `<a>`: ハイパーリンクを定義します。`href`属性でリンク先を指定します。
+- `<img>`: 画像を表示します。`src`属性で画像のURLを指定します。
+- `<ul>`, `<ol>`, `<li>`: リストを定義します。`<ul>`は順不同リスト、`<ol>`は順序付きリストです。
+- `<div>`: ブロックレベルのコンテナを定義します。スタイルやスクリプトで使用されます。
+- `<span>`: インライン要素のコンテナを定義します。主にスタイルを適用するために使用されます。
+
+
+# CSS
+
+CSS（Cascading Style Sheets）は、HTMLで作成されたウェブページのスタイルを指定するための言語です。CSSを使うことで、フォント、色、レイアウトなどを自由に変更できます。
+
+## CSSの基本構造
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 ```
 
-***
+
+## よくつかうプロパティ
+
+- `color`: テキストの色を指定します。
+- `background-color`: 背景色を指定します。
+- `font-size`: フォントのサイズを指定します。
+- `font-family`: フォントの種類を指定します。
+- `margin`: 要素の外側の余白を指定します。
+
+## セレクタ
+
+セレクタは、CSSでスタイルを適用する要素を指定するための方法です。以下はよく使われるセレクタの例です。
+- タグセレクタ: `p`、`h1`など、特定のHTMLタグにスタイルを適用します。
+- クラスセレクタ: `.classname`の形式で、特定のクラス名を持つ要素にスタイルを適用します。
+- IDセレクタ: `#idname`の形式で、特定のIDを持つ要素にスタイルを適用します。
+- 属性セレクタ: `[attribute="value"]`の形式で、特定の属性を持つ要素にスタイルを適用します。
+- 擬似クラスセレクタ: `:hover`や`:focus`など、特定の状態にある要素にスタイルを適用します。
+
+# 作り方
+
+## HTMLとCSSの連携
+
+HTMLとCSSを連携させるためには、HTMLファイル内でCSSファイルをリンクする必要があります。これには、`<link>`タグを使用します。
 
 ```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウェブページのタイトル</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 ```
 
-$$
-\int\_{0}^{\infty} e^{-x} dx = 1
-$$
+## 実際の例
 
-$$
-\lim\_{n \to \infty} \sum\_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
-$$
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ウェブページのタイトル</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ウェブページの見出し</h1>
+    </header>
+    <main>
+        <p>ここに本文が入ります。</p>
+        <a href="https://example.com">リンクのテキスト</a>
+    </main>
+    <footer>
+        <p>フッターの内容</p>
+    </footer>
+</body>
+</html>
+```
 
-$$
-\begin{bmatrix}
-1 & 2 & 3 \\\
-4 & 5 & 6 \\\
-7 & 8 & 9
-\end{bmatrix}
-$$
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+0)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+0)
+```css
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+h1 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+```

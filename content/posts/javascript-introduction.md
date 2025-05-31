@@ -10,73 +10,56 @@ courses:
 weight: 2
 date: 2025-05-30T00:00:00.000Z
 ---
-# 基本的な記事 0
 
-基本的な記事 0の内容が入ります。
-
-## セクション1
-
-ここにセクション1の内容が入ります。
-
-## セクション2
-
-ここにセクション2の内容が入ります。
-
-* リスト1
-* リスト2
-* リスト3
-
-| ヘッダー1 | ヘッダー2 |
-| --------- | --------- |
-| データ1   | データ2   |
-| データ3   | データ4   |
+# JavaScriptの基礎
+JavaScriptは、ウェブページに動きをつけるためのプログラミング言語です。ユーザーの操作に応じて、ページの内容を動的に変更したり、アニメーションを追加したりすることができます。
+# JavaScriptの基本構文
+JavaScriptの基本的な構文は、変数の宣言、関数の定義、条件分岐、ループなどで構成されています。以下に基本的な例を示します。
 
 ```javascript
-
-function helloWorld() {
-  console.log("Hello, World!");
+// 変数の宣言
+let message = "Hello, World!";
+// 関数の定義
+function greet(name) {
+    return `Hello, ${name}!`;
 }
-
-window.onload = function() {
-  helloWorld();
+// 条件分岐
+if (message === "Hello, World!") {
+    console.log(greet("User"));
+} else {
+    console.log("Unknown message");
 }
-
+// ループ
+for (let i = 0; i < 5; i++) {
+    console.log(`Count: ${i}`);
+}
 ```
-
-***
-
-```python
-def hello_world():
-    print("Hello, World!")
-hello_world()
+# DOM操作
+DOM（Document Object Model）は、HTMLやXML文書の構造を表現するオブジェクトモデルです。JavaScriptを使ってDOMを操作することで、ページの内容を動的に変更できます。
+# DOMの基本操作
+```javascript
+// 要素の取得
+let element = document.getElementById("myElement");
+// 要素の内容を変更
+element.textContent = "新しいテキスト";
+// 新しい要素の作成
+let newElement = document.createElement("div");
+// 新しい要素にクラスを追加
+newElement.classList.add("myClass");
+// 要素をページに追加
+document.body.appendChild(newElement);
+// イベントリスナーの追加
+element.addEventListener("click", function() {
+    alert("Element clicked!");
+});
 ```
+# イベント処理
+イベントは、ユーザーの操作（クリック、キーボード入力など）に応じて発生するアクションです。JavaScriptでは、イベントリスナーを使ってこれらのイベントを処理できます。
 
-***
-
-```html
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```javascript
+// ボタンのクリックイベントを処理
+let button = document.getElementById("myButton");
+button.addEventListener("click", function() {
+    alert("Button was clicked!");
+});
 ```
-
-$$
-\int\_{0}^{\infty} e^{-x} dx = 1
-$$
-
-$$
-\lim\_{n \to \infty} \sum\_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
-$$
-
-$$
-\begin{bmatrix}
-1 & 2 & 3 \\\
-4 & 5 & 6 \\\
-7 & 8 & 9
-\end{bmatrix}
-$$
-
-![画像](https://dummyimage.com/320x180/2D3748/F5F7FA?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+0)
-
-![画像](https://dummyimage.com/640x360/1A202C/EDF2F7?text=%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E8%A8%98%E4%BA%8B+0)
