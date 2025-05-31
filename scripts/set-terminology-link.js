@@ -6,6 +6,7 @@ import matter from 'gray-matter';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkStringify from 'remark-stringify';
+import yaml from 'js-yaml';
 import { visit } from 'unist-util-visit';
 
 console.log("Setting terminology link...");
@@ -42,7 +43,9 @@ function getMarkdownFiles() {
 // 3. ファイルを読み込んでリンクをセット
 async function setTerminologyLinksInFile(filePath, terminologies) {
   console.log(`Step 3: ファイルに用語リンクを設定する: ${filePath}`);
-  const content = fs.readFileSync(filePath, 'utf-8');
+  const fileContent = fs.readFileSync(filePath, 'utf-8');
+
+  const parsed = matter(fileContent); // FrontMatter + Contentを分ける
 
   const processor = unified()
     .use(remarkParse)
@@ -56,8 +59,16 @@ async function setTerminologyLinksInFile(filePath, terminologies) {
     })
     .use(remarkStringify);
 
-  const file = await processor.process(content);
-  return String(file);
+  const newContent = await processor.process(parsed.content);
+
+  return matter.stringify(String(newContent), parsed.data, {
+    language: 'yaml',
+    engines: {
+      yaml: {
+        stringify: (data) => yaml.dump(data, { lineWidth: 0 }) // ← stringifyに！
+      }
+    }
+  });
 }
 
 // ユーティリティ関数：正規表現用に特殊文字をエスケープする

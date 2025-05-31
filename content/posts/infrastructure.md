@@ -3,12 +3,13 @@ title: インフラストラクチャとは
 description: インフラストラクチャに関する基本的な記事です。
 draft: false
 thumbnail: https://dummyimage.com/600x400/15803D/FFFFFF?text=インフラストラクチャとは
-categories: ['infrastructure']
-courses: ['infrastructure-beginners-guide']
+categories:
+  - infrastructure
+courses:
+  - infrastructure-beginners-guide
 weight: 1
 date: 2025-05-30T00:00:00.000Z
 ---
-
 インフラストラクチャ
 
 # 基本的な記事 0
@@ -16,14 +17,16 @@ date: 2025-05-30T00:00:00.000Z
 基本的な記事 0の内容が入ります。
 
 ## セクション1
+
 ここにセクション1の内容が入ります。
 
 ## セクション2
+
 ここにセクション2の内容が入ります。
 
-- リスト1
-- リスト2
-- リスト3
+* リスト1
+* リスト2
+* リスト3
 
 | ヘッダー1 | ヘッダー2 |
 | --------- | --------- |
@@ -42,7 +45,7 @@ window.onload = function() {
 
 ```
 
----
+***
 
 ```python
 def hello_world():
@@ -50,7 +53,7 @@ def hello_world():
 hello_world()
 ```
 
----
+***
 
 ```html
 <!DOCTYPE html>
@@ -61,11 +64,11 @@ hello_world()
 ```
 
 $$
-\int_{0}^{\infty} e^{-x} dx = 1
+\int\_{0}^{\infty} e^{-x} dx = 1
 $$
 
 $$
-\lim_{n \to \infty} \sum_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
+\lim\_{n \to \infty} \sum\_{k=1}^{n} \frac{1}{k^2} = \frac{\pi^2}{6}
 $$
 
 $$
