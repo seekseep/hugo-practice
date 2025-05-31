@@ -7,7 +7,7 @@ import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkStringify from 'remark-stringify';
 import yaml from 'js-yaml';
-import { visit } from 'unist-util-visit';
+import { visit, SKIP } from 'unist-util-visit';
 
 console.log("Setting terminology link...");
 
@@ -50,11 +50,34 @@ async function setTerminologyLinksInFile(filePath, terminologies) {
   const processor = unified()
     .use(remarkParse)
     .use(() => tree => {
-      visit(tree, 'text', node => {
-        terminologies.forEach(({ term, link }) => {
-          const regex = new RegExp(`(?<!\\]\\()(${escapeRegExp(term)})(?!\\))`, 'g');
-          node.value = node.value.replace(regex, `[${term}](${link})`);
-        });
+      visit(tree, 'text', (node, index, parent) => {
+        if (parent.type === 'link') {
+          return;
+        }
+        // ↓ ここから先はリンクの中ではないテキストにだけ実行
+        for (const { term, link } of terminologies) {
+          const regex = new RegExp(`(${escapeRegExp(term)})`, 'g');
+
+          if (regex.test(node.value)) {
+            const parts = node.value.split(regex);
+            const newChildren = [];
+
+            for (const part of parts) {
+              if (part === term) {
+                newChildren.push({
+                  type: 'link',
+                  url: link,
+                  children: [{ type: 'text', value: term }]
+                });
+              } else if (part) {
+                newChildren.push({ type: 'text', value: part });
+              }
+            }
+
+            parent.children.splice(index, 1, ...newChildren);
+            return [SKIP];
+          }
+        }
       });
     })
     .use(remarkStringify, {
@@ -62,7 +85,7 @@ async function setTerminologyLinksInFile(filePath, terminologies) {
       bullet: '*',
       emphasis: '*',
       strong: '*',
-      listItemIndent: '1',
+      listItemIndent: 'one',
       rule: '-',
       quote: '"',
       resourceLink: true

@@ -10,11 +10,13 @@ courses:
 weight: 2
 date: 2025-05-30T00:00:00.000Z
 ---
+# [JavaScript](/terminologies/javascript/)の基礎
 
-# JavaScriptの基礎
-JavaScriptは、ウェブページに動きをつけるためのプログラミング言語です。ユーザーの操作に応じて、ページの内容を動的に変更したり、アニメーションを追加したりすることができます。
-# JavaScriptの基本構文
-JavaScriptの基本的な構文は、変数の宣言、関数の定義、条件分岐、ループなどで構成されています。以下に基本的な例を示します。
+[JavaScript](/terminologies/javascript/)は、ウェブページに動きをつけるためのプログラミング言語です。ユーザーの操作に応じて、ページの内容を動的に変更したり、アニメーションを追加したりすることができます。
+
+# [JavaScript](/terminologies/javascript/)の基本構文
+
+[JavaScript](/terminologies/javascript/)の基本的な構文は、変数の宣言、関数の定義、条件分岐、ループなどで構成されています。以下に基本的な例を示します。
 
 ```javascript
 // 変数の宣言
@@ -34,9 +36,13 @@ for (let i = 0; i < 5; i++) {
     console.log(`Count: ${i}`);
 }
 ```
+
 # DOM操作
-DOM（Document Object Model）は、HTMLやXML文書の構造を表現するオブジェクトモデルです。JavaScriptを使ってDOMを操作することで、ページの内容を動的に変更できます。
+
+DOM（Document Object Model）は、[HTML](/terminologies/html/)やXML文書の構造を表現するオブジェクトモデルです。[JavaScript](/terminologies/javascript/)を使ってDOMを操作することで、ページの内容を動的に変更できます。
+
 # DOMの基本操作
+
 ```javascript
 // 要素の取得
 let element = document.getElementById("myElement");
@@ -53,8 +59,10 @@ element.addEventListener("click", function() {
     alert("Element clicked!");
 });
 ```
+
 # イベント処理
-イベントは、ユーザーの操作（クリック、キーボード入力など）に応じて発生するアクションです。JavaScriptでは、イベントリスナーを使ってこれらのイベントを処理できます。
+
+イベントは、ユーザーの操作（クリック、キーボード入力など）に応じて発生するアクションです。[JavaScript](/terminologies/javascript/)では、イベントリスナーを使ってこれらのイベントを処理できます。
 
 ```javascript
 // ボタンのクリックイベントを処理

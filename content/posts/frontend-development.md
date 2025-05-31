@@ -42,7 +42,7 @@ window.onload = function() {
 
 ```
 
-***
+---
 
 ```python
 def hello_world():
@@ -50,7 +50,7 @@ def hello_world():
 hello_world()
 ```
 
-***
+---
 
 ```html
 <!DOCTYPE html>
