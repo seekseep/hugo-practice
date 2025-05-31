@@ -21,8 +21,8 @@ function getTerminologies() {
   const terminologies = files.map(file => {
     const content = fs.readFileSync(file, 'utf-8');
     const { data } = matter(content); // gray-matter でFrontMatter読み取る
-    const title = data.title || path.basename(path.dirname(file)); // titleなければディレクトリ名
-    const slug = path.basename(path.dirname(file)); // URL用にslugとする
+    const title = data.title || path.basename(file, '.md'); // ファイル名から拡張子除去
+    const slug = path.basename(file, '.md'); // ファイル名からslugを作る
     return {
       term: title,
       link: `/terminologies/${slug}/`
