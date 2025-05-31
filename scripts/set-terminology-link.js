@@ -57,7 +57,16 @@ async function setTerminologyLinksInFile(filePath, terminologies) {
         });
       });
     })
-    .use(remarkStringify);
+    .use(remarkStringify, {
+      fences: true,
+      bullet: '*',
+      emphasis: '*',
+      strong: '*',
+      listItemIndent: '1',
+      rule: '-',
+      quote: '"',
+      resourceLink: true
+    });
 
   const newContent = await processor.process(parsed.content);
 
