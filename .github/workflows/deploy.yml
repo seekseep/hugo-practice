@@ -30,7 +30,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo --baseURL "https://${{ env.CF_DOMAIN }}/"
+        run: hugo --baseURL "https://${{ env.CF_DOMAIN }}"
 
       - name: Configure AWS credentials using OIDC
         uses: aws-actions/configure-aws-credentials@v3
